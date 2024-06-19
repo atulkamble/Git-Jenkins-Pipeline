@@ -17,8 +17,8 @@ Certainly! Let's walk through setting up a very basic Jenkins pipeline project u
 Create a simple Git repository with a basic project structure. Here's an example using a simple shell script.
 
 ```sh
-mkdir basic-jenkins-project
-cd basic-jenkins-project
+mkdir git-jenkins-pipeline
+cd git-jenkins-pipeline
 git init
 echo 'echo "Hello, Jenkins!"' > hello.sh
 chmod +x hello.sh
