@@ -33,7 +33,7 @@ echo 'pipeline {
     stages {
         stage("Clone Repository") {
             steps {
-                git "https://github.com/your-username/basic-jenkins-project.git"
+                git "https://github.com/atulkamble/Git-Jenkins-Pipeline.git"
             }
         }
 
