@@ -1,4 +1,4 @@
-echo 'pipeline {
+pipeline {
     agent any
 
     stages {
