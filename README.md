@@ -52,7 +52,7 @@ Commit and push the changes to your Git repository:
 git add .
 git commit -m "Initial commit with Jenkinsfile and hello.sh"
 git remote add origin https://github.com/your-username/basic-jenkins-project.git
-git push -u origin main
+git push -u origin master
 ```
 
 #### Step 3: Create a Jenkins Pipeline Job
