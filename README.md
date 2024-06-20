@@ -26,8 +26,8 @@ chmod +x hello.sh
 
 Create a `Jenkinsfile` in the same directory:
 
-```sh
-echo 'pipeline {
+```
+pipeline {
     agent any
 
     stages {
@@ -43,7 +43,7 @@ echo 'pipeline {
             }
         }
     }
-}' > Jenkinsfile
+}
 ```
 
 Commit and push the changes to your Git repository:
